@@ -1,0 +1,15 @@
+//sql queries need to be fired in database 
+CREATE TABLE departments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    department_name VARCHAR(100) NOT NULL,
+    department_description TEXT
+);
+
+//employee sql script
+CREATE TABLE employee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email_id VARCHAR(255) NOT NULL UNIQUE,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL
+);
+
